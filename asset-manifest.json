@@ -1,26 +1,28 @@
 {
   "files": {
     "main.css": "/wesele/static/css/main.9be30b87.chunk.css",
-    "main.js": "/wesele/static/js/main.f4ad1e88.chunk.js",
-    "main.js.map": "/wesele/static/js/main.f4ad1e88.chunk.js.map",
-    "runtime-main.js": "/wesele/static/js/runtime-main.edab518b.js",
-    "runtime-main.js.map": "/wesele/static/js/runtime-main.edab518b.js.map",
+    "main.js": "/wesele/static/js/main.e48a7b99.chunk.js",
+    "main.js.map": "/wesele/static/js/main.e48a7b99.chunk.js.map",
+    "runtime-main.js": "/wesele/static/js/runtime-main.15b98855.js",
+    "runtime-main.js.map": "/wesele/static/js/runtime-main.15b98855.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/wesele/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.fbbf2242.chunk.js": "/wesele/static/js/2.fbbf2242.chunk.js",
-    "static/js/2.fbbf2242.chunk.js.map": "/wesele/static/js/2.fbbf2242.chunk.js.map",
-    "static/js/3.58adb5bb.chunk.js": "/wesele/static/js/3.58adb5bb.chunk.js",
-    "static/js/3.58adb5bb.chunk.js.map": "/wesele/static/js/3.58adb5bb.chunk.js.map",
+    "static/js/2.684f588b.chunk.js": "/wesele/static/js/2.684f588b.chunk.js",
+    "static/js/2.684f588b.chunk.js.map": "/wesele/static/js/2.684f588b.chunk.js.map",
+    "static/js/3.e67fcf4b.chunk.js": "/wesele/static/js/3.e67fcf4b.chunk.js",
+    "static/js/3.e67fcf4b.chunk.js.map": "/wesele/static/js/3.e67fcf4b.chunk.js.map",
     "index.html": "/wesele/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/wesele/static/css/2.4c97ca4f.chunk.css.map",
     "static/css/main.9be30b87.chunk.css.map": "/wesele/static/css/main.9be30b87.chunk.css.map",
-    "static/js/2.fbbf2242.chunk.js.LICENSE.txt": "/wesele/static/js/2.fbbf2242.chunk.js.LICENSE.txt",
+    "static/js/2.684f588b.chunk.js.LICENSE.txt": "/wesele/static/js/2.684f588b.chunk.js.LICENSE.txt",
+    "static/media/favW.c1818144.png": "/wesele/static/media/favW.c1818144.png",
+    "static/media/hero.09a15ff4.jpg": "/wesele/static/media/hero.09a15ff4.jpg",
     "static/media/logo.6ce24c58.svg": "/wesele/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.edab518b.js",
+    "static/js/runtime-main.15b98855.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.fbbf2242.chunk.js",
+    "static/js/2.684f588b.chunk.js",
     "static/css/main.9be30b87.chunk.css",
-    "static/js/main.f4ad1e88.chunk.js"
+    "static/js/main.e48a7b99.chunk.js"
   ]
 }
