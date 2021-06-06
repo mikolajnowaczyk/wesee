@@ -1,11 +1,13 @@
 import React from "react";
-import { Image, Col  } from "react-bootstrap";
-import heroImg from '../assets/hero.jpg'
+import { Image, Col } from "react-bootstrap";
+import heroImg from "../assets/hero.jpg";
 
-export const Hero = (props) => {
+export const Hero = React.forwardRef((props, ref) => {
   return (
-    <Col xs={{span: 6, offset: 3}} >
-    <Image src={heroImg} fluid></Image>
-    </Col>
+    <>
+      <Col xs={{ span: 6, offset: 3 }} ref={ref}>
+        <Image src={heroImg} fluid></Image>
+      </Col>
+    </>
   );
-};
+});
