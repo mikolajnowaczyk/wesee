@@ -5,11 +5,16 @@ import "./_menu.scss"
 
 const onClickHandler = (ref) => {
   // console.log("on click debug", ref);
-  const topOfElement = ref.current.offsetTop - 90;
+  // console.log("on click debug", ref.current);
+  // console.log("on click debug", ref.current.offsetTop);
+  // console.log("on click debug", ref.current.outerHTML);
+  // console.log("on click debug", );
+  // console.log("on click debug", ref.current.outerHTML.toString(ref.current.outerHTML).includes("Mapy"));
+  const topOfElement = ref.current.outerHTML.toString(ref.current.outerHTML).includes("Mapy") ? ref.current.offsetTop - 32 : ref.current.offsetTop - 90;
   window.scroll({ top: topOfElement, behavior: "smooth" });
 };
 
-export const Menu = (props, refs) => {
+export const Menu = (props) => {
   return (
       <Navbar bg="primary" variant="dark" sticky="top" expand="lg" collapseOnSelect >
         <Navbar.Brand href="#home" onClick={() => {

@@ -2,13 +2,25 @@ import React from "react";
 
 export const Info = React.forwardRef((props, ref) => (
   <>
-    <h2 ref={ref}>Info</h2>
+    <h2 ref={ref}>Informacje podstawowe</h2>
     <p>
-      Tutaj będą podstawowe informacje o weselu. 31 lipiec 2021 godzina 15.00
+      Ślub odbędzie się 31.07.2021 o godzinie 15.00 w kościele pw. św. Andrzeja Boboli przy Placu Kościeleckich 7.
     </p>
-    <a href="https://www.google.pl/maps/dir//Ko%C5%9Bci%C3%B3%C5%82+Rzymskokatolicki+pw.+%C5%9Bw.+Andrzeja+Boboli,+Pl.+Ko%C5%9Bcieleckich+7,+85-033+Bydgoszcz/@53.121053,18.0026083,17z/data=!4m12!1m2!2m1!1za2_Fm2Npw7PFgiBqZXp1aXTDs3cgYnlkZ29zemN6!4m8!1m0!1m5!1m1!1s0x470313bdaad3a655:0x33cee6f3e4df5ed9!2m2!1d18.0045511!2d53.1211479!3e2">
-      Tutaj
-    </a>{" "}
-    znajduje się kościół w którym odbędzie się uroczystość.
+    <p>
+      Wesele odbędzie się w Sali Waniliowej (na 1 piętrze) w restauracji Sowa przy ulicy Mostowej 4 (ok. 350m od kościoła).
+    </p>
+    <p>
+      Dla gości będą zarezerwowane noclegi w hotelu Elda przy ul. Fordońskiej 26 (ok. 3km od sali).
+    </p>
+    <p>
+    Harmonogram szczegółowy:
+      <ul> 
+        <li>Msza św. 15.00 w kościele św. Andrzeja Boboli</li>
+        <li>Po Mszy przemarsz orszakiem weselnym na sale do restauracji Sowa</li>
+        <li>Przywitanie pary młodej</li>
+        <li>Składanie życzeń przez gości weselnych odbędzie się na sali</li>
+        <li>Dalsza zabawa na sali</li>
+      </ul>
+    </p>
   </>
 ));

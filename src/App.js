@@ -5,7 +5,7 @@ import { Info } from "./components/info";
 import { QA } from "./components/QA";
 import { MapComponent } from "./components/mapComponent";
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";    
 function App() {
   const infoRef = React.createRef();
   const heroRef = React.createRef();
