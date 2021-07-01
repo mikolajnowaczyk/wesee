@@ -32,7 +32,7 @@ export const MapComponent = React.forwardRef((props, ref) => {
     "https://www.google.com/maps/dir//Cukiernia+Restauracja+Winiarnia+Sowa,+Mostowa+5,+Bydgoszcz/@53.1223345,18.0083586,15z/data=!4m9!4m8!1m0!1m5!1m1!1s0x470313bb8c75b405:0x64cf54d191cb34c6!2m2!1d18.0008064!2d53.1225859!3e2";
   return (
     <>
-      <h2 ref={ref}>Mapy</h2>
+      <h2 ref={ref} style={{margin:"10px"}}>Mapy</h2>
       <MapContainer
         center={[53.12287973037684, 18.001235433204815]}
         zoom={12}

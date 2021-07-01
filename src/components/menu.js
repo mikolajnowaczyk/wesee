@@ -16,7 +16,7 @@ const onClickHandler = (ref) => {
 
 export const Menu = (props) => {
   return (
-      <Navbar bg="primary" variant="dark" sticky="top" expand="lg" collapseOnSelect >
+      <Navbar class="navbar"  variant="light" sticky="top" expand="lg" collapseOnSelect>
         <Navbar.Brand href="#home" onClick={() => {
                 onClickHandler(props.refs.heroRef);
               }}>
@@ -29,11 +29,12 @@ export const Menu = (props) => {
           />
           Wesele
         </Navbar.Brand>
-        <Navbar.Toggle style={{borderColor: "white", border: "2px white solid"}}/>
+        {/* <Navbar.Toggle style={{borderColor: "white", border: "2px white solid"}}/> */}
+        <Navbar.Toggle style={{borderColor: "black", border: "2px black solid"}}/>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link
-            className="my-2 mx-auto text-white"
+            className="my-2 mx-auto text-black"
               href="#info"
               onClick={() => {
                 onClickHandler(props.refs.infoRef);
@@ -42,7 +43,7 @@ export const Menu = (props) => {
               Informacje
             </Nav.Link>
             <Nav.Link
-            className="my-2 mx-auto text-white"
+            className="my-2 mx-auto text-black"
               href="#qa"
               onClick={() => {
                 onClickHandler(props.refs.QARef);
@@ -51,7 +52,7 @@ export const Menu = (props) => {
               Pytania i Odpowiedzi
             </Nav.Link>
              <Nav.Link
-            className="my-2 mx-auto text-white"
+            className="my-2 mx-auto text-black"
               href="#maps"
               onClick={() => {
                 onClickHandler(props.refs.mapsRef);

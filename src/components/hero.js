@@ -5,7 +5,8 @@ import heroImg from "../assets/hero.jpg";
 export const Hero = React.forwardRef((props, ref) => {
   return (
     <>
-      <Col xs={{ span: 6, offset: 3 }} ref={ref}>
+      <h1 style={{textAlign:"center", fontFamily: 'Sacramento', fontWeight:"700", marginTop:"10px"}}>Ślub oraz wesele Anny i Mikołaja 31.07.2021r.</h1>
+      <Col xs={{ span: 12 }} md={{ span: 8, offset: 2 }} ref={ref}>
         <Image src={heroImg} fluid></Image>
       </Col>
     </>
