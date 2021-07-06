@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/wesele/static/css/main.21ad9526.chunk.css",
-    "main.js": "/wesele/static/js/main.25d1a30f.chunk.js",
-    "main.js.map": "/wesele/static/js/main.25d1a30f.chunk.js.map",
+    "main.js": "/wesele/static/js/main.a7d3c0f6.chunk.js",
+    "main.js.map": "/wesele/static/js/main.a7d3c0f6.chunk.js.map",
     "runtime-main.js": "/wesele/static/js/runtime-main.448a6c27.js",
     "runtime-main.js.map": "/wesele/static/js/runtime-main.448a6c27.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/wesele/static/css/2.4c97ca4f.chunk.css",
@@ -22,6 +22,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.65572c91.chunk.js",
     "static/css/main.21ad9526.chunk.css",
-    "static/js/main.25d1a30f.chunk.js"
+    "static/js/main.a7d3c0f6.chunk.js"
   ]
 }
