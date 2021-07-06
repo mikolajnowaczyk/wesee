@@ -14,7 +14,7 @@ export const QA = React.forwardRef((props, ref) => (
             <b>Czy będzie nocleg?</b>
           </li>
           <li style={{ listStyleType: "circle" }}>
-            Dla gości przyjezdnych na koszt Państaw Młodych zarezerwowane
+            Dla gości przyjezdnych na koszt Państwa Młodych zarezerwowane
             zostały pokoje ze śniadaniem w hotelu ELDA. Hotel będzie dostępny od
             godziny ok. 13.00 w sobotę, ale możliwe, że też wcześniej.
             Wymeldowanie z hotelu do godziny 12.00 w niedzielę. Rano w niedzielę

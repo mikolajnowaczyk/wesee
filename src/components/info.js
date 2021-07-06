@@ -18,8 +18,8 @@ export const Info = React.forwardRef((props, ref) => (
         </p>
         <p>
           Dla gości będą zarezerwowane noclegi w hotelu{" "}
-          <a href="https://www.hotelelda.pl/">EDLA</a> przy ul. Fordońskiej 26
-          (ok. 3km od Sali weselnej).
+          <a href="https://www.hotelelda.pl/">ELDA</a> przy ul. Fordońskiej 26
+          (ok. 3km od sali weselnej).
         </p>
         <p>
           Harmonogram szczegółowy:
