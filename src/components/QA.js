@@ -1,12 +1,14 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
+import { Figure, Col, Row } from "react-bootstrap";
+import prakingSowa from "../assets/parkingSowa.png";
 
 export const QA = React.forwardRef((props, ref) => (
   // <Card style={{margin:"20px"}}>
   <>
-    <Card style={{ margin: "10px" }}>
+    <Card style={{ margin: "10px" }} ref={ref}>
       <Card.Header>
-        <h3 ref={ref}>Pytania i Odpowiedzi</h3>
+        <h3 >Pytania i Odpowiedzi</h3>
       </Card.Header>
       <Card.Body>
         <ul>
@@ -28,15 +30,36 @@ export const QA = React.forwardRef((props, ref) => (
             kościoła można stanąć przy ulicy Długiej oraz Teofila Magdzińskiego
             (parking w centrum Bydgoszczy w soboty i niedziele jest bezpłatny),
             jednak według nas najlepszym rozwiązaniem jest zostawienie samochodu
-            na parkingu podziemnym przy sali weselnej ul. Kręta 3 (wjazd od
-            ulicy Podwale) i przejście pieszo do kościoła.
+            na parkingu podziemnym przy sali weselnej, pomiędzy lokalami Eljazz
+            i King Fu przy ul. Kręta 3 (wjazd od ulicy Podwale) i przejście
+            pieszo do kościoła. Przy wjeździe na parking podziemny po lewej
+            stronie znajduje się domofon do ochrony, która po informacji, że
+            jest się gościem weselnym wpuszcza na parnking.
             <br />
             Innym rozwiązaniem jest zostawienie samochodu przy parkingu
             hotelowym, przyjazd do kościoła (i z powrotem) taksówką. Polecamy{" "}
             <a href="http://19629.pl/">RADIO TAXI EXPRESS</a>, telefon do taxi:{" "}
             <a href="tel:523 222 222">523 222 222</a>, koszt około 14 zł za dnia
-            i około 20 w nocy. Na terenie Bydgoszczy nie działa aplikacja Uber,
-            ale zamiennikiem jest Bolt.
+            i około 20 zł w nocy. Na terenie Bydgoszczy nie działa aplikacja
+            Uber, ale zamiennikiem jest Bolt.
+            <Col
+              xs={{ span: 12 }}
+              md={{ span: 8, offset: 2 }}
+              lg={{ span: 6, offset: 3 }}
+            >
+              <Row>
+                <Figure>
+                  <Figure.Image
+                    id="entrance"
+                    src={prakingSowa}
+                    fluid
+                    rounded
+                    style={{ objectFit: "cover" }}
+                  ></Figure.Image>
+                  <Figure.Caption>Wjazd do parkingu podziemnego</Figure.Caption>
+                </Figure>
+              </Row>
+            </Col>
           </li>
           <li>
             <b>Składanie życzeń będzie na sali czy przed kościołem?</b>
@@ -66,9 +89,13 @@ export const QA = React.forwardRef((props, ref) => (
       </Card.Body>
     </Card>
     <Card style={{ margin: "10px" }}>
-      <Card.Body style={{textAlign:"center",fontFamily: 'Sacramento'}}>
-        <h3 style={{fontWeight:"700", fontSize:"2.5rem"}} >Serdecznie zapraszamy! Czekamy na Was z radością!</h3> 
-        <h4 style={{fontWeight:"700", fontSize:"2.5rem"}}>Anna i Mikołaj</h4>
+      <Card.Body style={{ textAlign: "center", fontFamily: "Sacramento" }}>
+        <h3 style={{ fontWeight: "700", fontSize: "2.5rem" }}>
+          Serdecznie zapraszamy! Czekamy na Was z radością!
+        </h3>
+        <h4 style={{ fontWeight: "700", fontSize: "2.5rem" }}>
+          Anna i Mikołaj
+        </h4>
       </Card.Body>
     </Card>
   </>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Image, Col } from "react-bootstrap";
-import heroImg from "../assets/hero.jpg";
+import heroImg from "../assets/heroMax.jpg";
 
 export const Hero = React.forwardRef((props, ref) => {
   return (
