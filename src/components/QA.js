@@ -2,6 +2,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import { Figure, Col, Row } from "react-bootstrap";
 import prakingSowa from "../assets/parkingSowa.png";
+import "./_QA.scss";
 
 export const QA = React.forwardRef((props, ref) => (
   // <Card style={{margin:"20px"}}>
@@ -10,17 +11,17 @@ export const QA = React.forwardRef((props, ref) => (
       <Card.Header>
         <h3 >Pytania i Odpowiedzi</h3>
       </Card.Header>
-      <Card.Body>
-        <ul>
+      <Card.Body style={{padding:"0.5rem"}}>
+        <ul style={{}}>
           <li>
             <b>Czy będzie nocleg?</b>
           </li>
           <li style={{ listStyleType: "circle" }}>
             Dla gości przyjezdnych na koszt Państwa Młodych zarezerwowane
             zostały pokoje ze śniadaniem w hotelu ELDA. Hotel będzie dostępny od
-            godziny ok. 13.00 w sobotę, ale możliwe, że też wcześniej.
-            Wymeldowanie z hotelu do godziny 12.00 w niedzielę. Rano w niedzielę
-            w hotelu śniadanie będzie dostępne od godziny 9.00.
+            godziny ok. 13:00 w sobotę, ale możliwe, że też wcześniej.
+            Wymeldowanie z hotelu do godziny 12:00 w niedzielę. Rano w niedzielę
+            w hotelu śniadanie będzie dostępne w godzinach od 8:30 do 11:00.
           </li>
           <li>
             <b>Czy będzie jakiś parking, jak z transportem z hotelu?</b>

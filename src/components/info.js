@@ -3,8 +3,8 @@ import Card from "react-bootstrap/Card";
 
 export const Info = React.forwardRef((props, ref) => (
   <>
-    <Card style={{ margin: "10px" }}>
-      <Card.Header>
+    <Card style={{ margin: "10px"}}>
+      <Card.Header style={{ padding: "5px !important"}}>
         <h2 ref={ref}>Informacje podstawowe</h2>
       </Card.Header>
       <Card.Body>
