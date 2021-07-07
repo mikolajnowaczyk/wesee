@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/wesele/static/css/main.036b0608.chunk.css",
-    "main.js": "/wesele/static/js/main.ae13a2f1.chunk.js",
-    "main.js.map": "/wesele/static/js/main.ae13a2f1.chunk.js.map",
-    "runtime-main.js": "/wesele/static/js/runtime-main.6f16fa78.js",
-    "runtime-main.js.map": "/wesele/static/js/runtime-main.6f16fa78.js.map",
+    "main.css": "/wesele/static/css/main.1d3aec1d.chunk.css",
+    "main.js": "/wesele/static/js/main.4846c84b.chunk.js",
+    "main.js.map": "/wesele/static/js/main.4846c84b.chunk.js.map",
+    "runtime-main.js": "/wesele/static/js/runtime-main.61085409.js",
+    "runtime-main.js.map": "/wesele/static/js/runtime-main.61085409.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/wesele/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.5fee5ad3.chunk.js": "/wesele/static/js/2.5fee5ad3.chunk.js",
-    "static/js/2.5fee5ad3.chunk.js.map": "/wesele/static/js/2.5fee5ad3.chunk.js.map",
-    "static/js/3.5bb2d6fc.chunk.js": "/wesele/static/js/3.5bb2d6fc.chunk.js",
-    "static/js/3.5bb2d6fc.chunk.js.map": "/wesele/static/js/3.5bb2d6fc.chunk.js.map",
+    "static/js/2.d94ccdf3.chunk.js": "/wesele/static/js/2.d94ccdf3.chunk.js",
+    "static/js/2.d94ccdf3.chunk.js.map": "/wesele/static/js/2.d94ccdf3.chunk.js.map",
+    "static/js/3.39ea6b53.chunk.js": "/wesele/static/js/3.39ea6b53.chunk.js",
+    "static/js/3.39ea6b53.chunk.js.map": "/wesele/static/js/3.39ea6b53.chunk.js.map",
     "index.html": "/wesele/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/wesele/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.036b0608.chunk.css.map": "/wesele/static/css/main.036b0608.chunk.css.map",
-    "static/js/2.5fee5ad3.chunk.js.LICENSE.txt": "/wesele/static/js/2.5fee5ad3.chunk.js.LICENSE.txt",
+    "static/css/main.1d3aec1d.chunk.css.map": "/wesele/static/css/main.1d3aec1d.chunk.css.map",
+    "static/js/2.d94ccdf3.chunk.js.LICENSE.txt": "/wesele/static/js/2.d94ccdf3.chunk.js.LICENSE.txt",
     "static/media/favW.c1818144.png": "/wesele/static/media/favW.c1818144.png",
     "static/media/heroMax.da8812cb.jpg": "/wesele/static/media/heroMax.da8812cb.jpg",
     "static/media/parkingSowa.4624118d.png": "/wesele/static/media/parkingSowa.4624118d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.6f16fa78.js",
+    "static/js/runtime-main.61085409.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.5fee5ad3.chunk.js",
-    "static/css/main.036b0608.chunk.css",
-    "static/js/main.ae13a2f1.chunk.js"
+    "static/js/2.d94ccdf3.chunk.js",
+    "static/css/main.1d3aec1d.chunk.css",
+    "static/js/main.4846c84b.chunk.js"
   ]
 }
